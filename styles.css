@@ -1,19 +1,3 @@
-html {
-  line-height: 1;
-}
-body {
-  background: white;
-  font-family: Garamond, Times, serif;
-}
-.space {
-  height: 5em;
-}
-h1 {
-  text-align: center;
-}
-h3 {
-  text-align: center;
-}
 #menu {
   position: fixed;
   left: 0;
@@ -22,9 +6,10 @@ h3 {
   padding: 0px;
   height: 35px;
   font-size: 16px;
+  font-family: Garamond;
   font-weight: bold;
   text-align: center;
-  background-color: #90c3d4;
+  background-color: #90C3D4;
 }
 #menu ul {
   height: auto;
@@ -43,14 +28,167 @@ h3 {
   color: black;
   background-color: orange;
 }
-h2 {
-  border-top: #90c3d4 solid 2px;
-  border-bottom: #90c3d4 solid 2px;
-  padding: 10px 0;
-  margin: 0 auto;
-  width: 750px;
+#header1 {
+  font-family: Garamond;
   text-align: center;
+  line-height: 50%;
 }
-div#container {
-  margin: 0 auto;
+#abouttype {
+  font-family: Garamond;
+  text-align: center;
+  line-height: 1%;
+}
+#about {
+  margin: 0px 0px 0px 40px;
+  float: left;
+  width: 600px;
+  height: 400px;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 100px;
+  column-gap: 100px;
+  padding: 50px;
+}
+#skills {
+  font-family: Garamond;
+  text-align: center;
+  line-height: 1%;
+}
+#skillsbody {
+  margin: 0px 0px 0px 40px;
+  float: left;
+  width: 600px;
+  height: 100px;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 100px;
+  column-gap: 100px;
+  padding: 50px;
+}
+#projects {
+  font-family: Garamond;
+  text-align: center;
+  line-height: 1%;
+}
+#projectsbody {
+  padding: 70px;
+}
+#experiencehead {
+  font-family: Garamond;
+  text-align: center;
+  line-height: 1%;
+}
+#experience1 {
+  font-family: Garamond;
+  padding: 0px;
+  line-height: 5%;
+  margin: 0px 0px 0px 75px;
+}
+#experience1 h6 {
+  font-size: 14px;
+  font-style: italic;
+  color: #90C3D4;
+  font-family: Garamond;
+  text-indent: 10px;
+  line-height: 5%;
+}
+#experience1 p {
+  text-indent: 10px;
+  line-height: 2px;
+}
+#experience2 {
+  font-family: Garamond;
+  padding: 0px;
+  line-height: 0px;
+  margin: 0px 0px 0px 75px;
+}
+#experience2 h6 {
+  font-size: 14px;
+  font-style: italic;
+  color: #90C3D4;
+  font-family: Garamond;
+  text-indent: 10px;
+  line-height: 5%;
+}
+#experience2 p {
+  text-indent: 10px;
+}
+#experience3 {
+  font-family: Garamond;
+  padding: 0px;
+  line-height: 5%;
+  margin: 0px 0px 0px 75px;
+}
+#experience3 h6 {
+  font-size: 14px;
+  font-style: italic;
+  color: #90C3D4;
+  font-family: Garamond;
+  text-indent: 10px;
+  line-height: 5%;
+}
+#experience3 p {
+  text-indent: 10px;
+}
+#experience4 {
+  font-family: Garamond;
+  padding: 0px;
+  line-height: 5%;
+  margin: 0px 0px 0px 75px;
+}
+#experience4 h6 {
+  font-size: 14px;
+  font-style: italic;
+  color: #90C3D4;
+  font-family: Garamond;
+  text-indent: 10px;
+  line-height: 5%;
+}
+#experience4 p {
+  text-indent: 10px;
+}
+#educationhead {
+  font-family: Garamond;
+  text-align: center;
+  line-height: 1%;
+}
+#contacthead {
+  font-family: Garamond;
+  text-align: center;
+  line-height: 1%;
+}
+#box {
+  text-align: center;
+  background-color: #90C3D4;
+  width: 500px;
+  height: 300px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  margin: auto;
+}
+#box form {
+  color: white;
+  font-size: 12px;
+  padding: 20px;
+}
+#footer {
+  font-family: Garamond;
+  text-align: center;
+  word-spacing: 20px;
+  color: #90C3D4;
+  line-height: 5px;
+}
+#footer a {
+  text-decoration: none;
+}
+#educationbody {
+  font-family: Garamond;
+  line-height: 3px;
+  margin: 0px 0px 0px 75px;
+}
+#footer a:hover {
+  color: black;
+  background-color: orange;
 }
