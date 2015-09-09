@@ -1,5 +1,26 @@
 @blue: #90C3D4;
+@white: white;
+@orange: orange;
+@black: black;
 
+html {
+	line-height: 1;
+}
+body {
+	background: @white;
+	font-family: Garamond, Times, serif;
+}
+
+.space {
+  height: 5em;
+}
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+#skills {}
 #menu {
     position: fixed;
     left: 0;
@@ -8,7 +29,6 @@
     padding: 0px;
     height: 35px;
     font-size: 16px;
-    font-family: Garamond;
     font-weight: bold;
     text-align: center;
     background-color: @blue;
@@ -25,9 +45,21 @@
 }
 #menu a {
     text-decoration: none;
-    color: white;
+    color: @white;
 }
 #menu a:hover {
     color: black;   
-    background-color: orange;
+    background-color: @orange;
 }
+h2 {
+  border-top: @blue solid 2px;
+  border-bottom: @blue solid 2px;
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 750px;
+  text-align: center;
+}
+div#container {
+  margin: 0 auto;
+}
+

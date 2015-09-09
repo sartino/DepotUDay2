@@ -1,3 +1,19 @@
+html {
+  line-height: 1;
+}
+body {
+  background: white;
+  font-family: Garamond, Times, serif;
+}
+.space {
+  height: 5em;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
 #menu {
   position: fixed;
   left: 0;
@@ -6,7 +22,6 @@
   padding: 0px;
   height: 35px;
   font-size: 16px;
-  font-family: Garamond;
   font-weight: bold;
   text-align: center;
   background-color: #90c3d4;
@@ -27,4 +42,15 @@
 #menu a:hover {
   color: black;
   background-color: orange;
+}
+h2 {
+  border-top: #90c3d4 solid 2px;
+  border-bottom: #90c3d4 solid 2px;
+  padding: 10px 0;
+  margin: 0 auto;
+  width: 750px;
+  text-align: center;
+}
+div#container {
+  margin: 0 auto;
 }
