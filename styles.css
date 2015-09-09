@@ -1,0 +1,30 @@
+#menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0px;
+  padding: 0px;
+  height: 35px;
+  font-size: 16px;
+  font-family: Garamond;
+  font-weight: bold;
+  text-align: center;
+  background-color: #90c3d4;
+}
+#menu ul {
+  height: auto;
+  padding: 8px 0px;
+  margin: 0px;
+}
+#menu li {
+  display: inline;
+  padding: 20px;
+}
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+#menu a:hover {
+  color: black;
+  background-color: orange;
+}
