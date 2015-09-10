@@ -9,7 +9,7 @@
 .set-bg-color (@text-color) when (lightness(@text-color) >= 50%) {
     background: black;
 }
-.set-bg-color (@text-color) when (lightness(@text-color) >= 50%) {
+.set-bg-color (@text-color) when (lightness(@text-color) < 50%) {
     background: white;
 }
 // Parametric mixin
