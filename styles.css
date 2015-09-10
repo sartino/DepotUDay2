@@ -8,11 +8,14 @@
   column-gap: 100px;
 }
 .garamondcenter {
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-align: center;
 }
 .boxhue {
   background-color: #ffa500;
+}
+.lineheight {
+  line-height: 10px;
 }
 #menu {
   position: fixed;
@@ -22,7 +25,7 @@
   padding: 0px;
   height: 35px;
   font-size: 16px;
-  font-family: Garamond;
+  font-family: Andada, serif;
   font-weight: bold;
   text-align: center;
   background-color: #90c3d4;
@@ -45,12 +48,12 @@
 }
 #header1 {
   line-height: 50%;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-align: center;
 }
 #abouttype {
   line-height: 1%;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-align: center;
 }
 #about {
@@ -67,7 +70,7 @@
 }*/
 #skills {
   line-height: 1%;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-align: center;
 }
 /*#skillsbody {
@@ -81,7 +84,7 @@
 }*/
 #projects {
   line-height: 1%;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-align: center;
 }
 #projectsbody {
@@ -89,29 +92,29 @@
 }
 #experiencehead {
   line-height: 1%;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-align: center;
 }
 #experience1 {
-  font-family: Garamond;
+  font-family: Andada, serif;
   padding: 0px;
-  line-height: 5%;
   margin: 0px 0px 0px 75px;
+  line-height: 10px;
 }
 #experience1 h6 {
   font-size: 14px;
   font-style: italic;
   color: #90c3d4;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-indent: 10px;
-  line-height: 5%;
+  line-height: 10px;
 }
 #experience1 p {
   text-indent: 10px;
-  line-height: 2px;
+  line-height: 10px;
 }
 #experience2 {
-  font-family: Garamond;
+  font-family: Andada, serif;
   padding: 0px;
   line-height: 0px;
   margin: 0px 0px 0px 75px;
@@ -120,55 +123,55 @@
   font-size: 14px;
   font-style: italic;
   color: #90c3d4;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-indent: 10px;
-  line-height: 5%;
+  line-height: 10px;
 }
 #experience2 p {
   text-indent: 10px;
 }
 #experience3 {
-  font-family: Garamond;
+  font-family: Andada, serif;
   padding: 0px;
-  line-height: 5%;
   margin: 0px 0px 0px 75px;
+  line-height: 10px;
 }
 #experience3 h6 {
   font-size: 14px;
   font-style: italic;
   color: #90c3d4;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-indent: 10px;
-  line-height: 5%;
+  line-height: 10px;
 }
 #experience3 p {
   text-indent: 10px;
 }
 #experience4 {
-  font-family: Garamond;
+  font-family: Andada, serif;
   padding: 0px;
-  line-height: 5%;
   margin: 0px 0px 0px 75px;
+  line-height: 10px;
 }
 #experience4 h6 {
   font-size: 14px;
   font-style: italic;
   color: #90c3d4;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-indent: 10px;
-  line-height: 5%;
+  line-height: 10px;
 }
 #experience4 p {
   text-indent: 10px;
 }
 #educationhead {
   line-height: 1%;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-align: center;
 }
 #contacthead {
   line-height: 1%;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-align: center;
 }
 #box {
@@ -193,16 +196,16 @@
   word-spacing: 20px;
   color: #90c3d4;
   line-height: 5px;
-  font-family: Garamond;
+  font-family: Andada, serif;
   text-align: center;
 }
 #footer a {
   text-decoration: none;
 }
 #educationbody {
-  font-family: Garamond;
-  line-height: 3px;
+  font-family: Andada, serif;
   margin: 0px 0px 0px 75px;
+  line-height: 10px;
 }
 #footer a:hover {
   background-color: #ffa500;
