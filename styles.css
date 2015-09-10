@@ -54,34 +54,31 @@
   text-align: center;
 }
 #about {
-  margin: 0px 0px 0px 40px;
-  float: left;
-  width: 600px;
-  height: 400px;
   padding: 50px;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 100px;
-  column-gap: 100px;
 }
+/*#about {
+    margin: 0px 0px 0px 40px;
+    float: left;
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    .columncount;
+    .columngap;
+}*/
 #skills {
   line-height: 1%;
   font-family: Garamond;
   text-align: center;
 }
-#skillsbody {
-  margin: 0px 0px 0px 40px;
-  float: left;
-  width: 600px;
-  height: 100px;
-  padding: 50px;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 100px;
-  column-gap: 100px;
-}
+/*#skillsbody {
+    margin: 0px 0px 0px 40px;
+    float: left;
+    width: 600px;
+    height: 100px;
+    padding: 50px;
+    .columncount;
+    .columngap;
+}*/
 #projects {
   line-height: 1%;
   font-family: Garamond;
@@ -178,7 +175,7 @@
   text-align: center;
   background-color: #90c3d4;
   width: 500px;
-  height: 300px;
+  height: 400px;
   margin-left: 40px;
   margin-right: 40px;
   border: 2px solid grey;
