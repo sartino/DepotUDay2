@@ -11,6 +11,9 @@
   font-family: Garamond;
   text-align: center;
 }
+.boxhue {
+  background-color: #ffa500;
+}
 #menu {
   position: fixed;
   left: 0;
@@ -38,8 +41,7 @@
   color: white;
 }
 #menu a:hover {
-  color: black;
-  background-color: orange;
+  background-color: #ffa500;
 }
 #header1 {
   line-height: 50%;
@@ -206,6 +208,5 @@
   margin: 0px 0px 0px 75px;
 }
 #footer a:hover {
-  color: black;
-  background-color: orange;
+  background-color: #ffa500;
 }
